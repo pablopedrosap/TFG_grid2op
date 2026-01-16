@@ -1,0 +1,390 @@
+{
+  "metadata": {
+    "env_name": "l2rpn_case14_sandbox",
+    "n_lines": 20,
+    "n_substations": 14,
+    "n_runs": 10,
+    "seeds_used": [
+      42,
+      49,
+      56,
+      63,
+      70,
+      77,
+      84,
+      91,
+      98,
+      105
+    ],
+    "max_budget": 10,
+    "lambda_max": 2.0,
+    "total_computation_time": 181.08137822151184
+  },
+  "summary": {
+    "base_lambda_mean": 1.173,
+    "base_lambda_std": 0.10872442227944935,
+    "max_lambda_mean": 1.3700000000000003,
+    "optimal_n_actions": 1,
+    "pareto_efficiency_mean": 2.789122200886909,
+    "pareto_efficiency_std": 72.98847751888029,
+    "knee_point_mode": 1,
+    "monotonicity_rate": 0.0
+  },
+  "points": [
+    {
+      "n_actions": 0,
+      "lambda_mean": 1.173,
+      "lambda_std": 0.10872442227944935,
+      "lambda_min": 1.03,
+      "lambda_max": 1.3100000000000003,
+      "ci_lower": 1.105611904908953,
+      "ci_upper": 1.240388095091047,
+      "improvement_mean": 0.0,
+      "improvement_std": 0.0,
+      "all_lambdas": [
+        1.07,
+        1.1900000000000002,
+        1.2800000000000002,
+        1.1800000000000002,
+        1.03,
+        1.03,
+        1.07,
+        1.3100000000000003,
+        1.3000000000000003,
+        1.2700000000000002
+      ]
+    },
+    {
+      "n_actions": 1,
+      "lambda_mean": 1.2480000000000004,
+      "lambda_std": 0.07493997598078085,
+      "lambda_min": 1.1300000000000001,
+      "lambda_max": 1.4000000000000004,
+      "ci_lower": 1.2015517216680751,
+      "ci_upper": 1.2944482783319258,
+      "improvement_mean": 7.725277636977841,
+      "improvement_std": 15.009333767257472,
+      "all_lambdas": [
+        1.4000000000000004,
+        1.3000000000000003,
+        1.2000000000000002,
+        1.2800000000000002,
+        1.2400000000000002,
+        1.2500000000000002,
+        1.3100000000000003,
+        1.1300000000000001,
+        1.1600000000000001,
+        1.2100000000000002
+      ]
+    },
+    {
+      "n_actions": 2,
+      "lambda_mean": 1.23,
+      "lambda_std": 0.07694153624668544,
+      "lambda_min": 1.1,
+      "lambda_max": 1.3600000000000003,
+      "ci_lower": 1.1823111417624619,
+      "ci_upper": 1.277688858237538,
+      "improvement_mean": 5.577977380270008,
+      "improvement_std": 10.11416769555965,
+      "all_lambdas": [
+        1.1,
+        1.3200000000000003,
+        1.2300000000000002,
+        1.1900000000000002,
+        1.1500000000000001,
+        1.1900000000000002,
+        1.3600000000000003,
+        1.2800000000000002,
+        1.1900000000000002,
+        1.2900000000000003
+      ]
+    },
+    {
+      "n_actions": 3,
+      "lambda_mean": 1.2670000000000001,
+      "lambda_std": 0.089671623159169,
+      "lambda_min": 1.12,
+      "lambda_max": 1.4400000000000004,
+      "ci_lower": 1.2114209521492136,
+      "ci_upper": 1.3225790478507866,
+      "improvement_mean": 9.175928882682959,
+      "improvement_std": 14.446273101923241,
+      "all_lambdas": [
+        1.3200000000000003,
+        1.2600000000000002,
+        1.12,
+        1.2100000000000002,
+        1.2300000000000002,
+        1.3900000000000003,
+        1.2600000000000002,
+        1.2500000000000002,
+        1.1900000000000002,
+        1.4400000000000004
+      ]
+    },
+    {
+      "n_actions": 4,
+      "lambda_mean": 1.247,
+      "lambda_std": 0.0688549199404081,
+      "lambda_min": 1.1600000000000001,
+      "lambda_max": 1.3600000000000003,
+      "ci_lower": 1.2043232784764342,
+      "ci_upper": 1.289676721523566,
+      "improvement_mean": 7.358770082805731,
+      "improvement_std": 12.628971231437472,
+      "all_lambdas": [
+        1.2400000000000002,
+        1.3300000000000003,
+        1.1800000000000002,
+        1.1800000000000002,
+        1.2900000000000003,
+        1.2200000000000002,
+        1.3200000000000003,
+        1.3600000000000003,
+        1.1900000000000002,
+        1.1600000000000001
+      ]
+    },
+    {
+      "n_actions": 5,
+      "lambda_mean": 1.2240000000000002,
+      "lambda_std": 0.08345058418010033,
+      "lambda_min": 1.1,
+      "lambda_max": 1.3300000000000003,
+      "ci_lower": 1.1722767920561767,
+      "ci_upper": 1.2757232079438237,
+      "improvement_mean": 5.1065289615798255,
+      "improvement_std": 11.065881865921273,
+      "all_lambdas": [
+        1.11,
+        1.3300000000000003,
+        1.2200000000000002,
+        1.1300000000000001,
+        1.3100000000000003,
+        1.2600000000000002,
+        1.1,
+        1.3300000000000003,
+        1.2500000000000002,
+        1.2000000000000002
+      ]
+    },
+    {
+      "n_actions": 6,
+      "lambda_mean": 1.243,
+      "lambda_std": 0.04337049688440291,
+      "lambda_min": 1.1800000000000002,
+      "lambda_max": 1.3300000000000003,
+      "ci_lower": 1.216118687532042,
+      "ci_upper": 1.2698813124679582,
+      "improvement_mean": 6.967730847411739,
+      "improvement_std": 11.347300150828843,
+      "all_lambdas": [
+        1.2600000000000002,
+        1.3300000000000003,
+        1.1900000000000002,
+        1.2500000000000002,
+        1.2900000000000003,
+        1.2200000000000002,
+        1.2100000000000002,
+        1.2600000000000002,
+        1.2400000000000002,
+        1.1800000000000002
+      ]
+    },
+    {
+      "n_actions": 7,
+      "lambda_mean": 1.2600000000000002,
+      "lambda_std": 0.06572670690062,
+      "lambda_min": 1.2100000000000002,
+      "lambda_max": 1.4000000000000004,
+      "ci_lower": 1.2192621650059803,
+      "ci_upper": 1.3007378349940202,
+      "improvement_mean": 8.47220864157065,
+      "improvement_std": 12.874582579158359,
+      "all_lambdas": [
+        1.3000000000000003,
+        1.2100000000000002,
+        1.2100000000000002,
+        1.2400000000000002,
+        1.4000000000000004,
+        1.2100000000000002,
+        1.2200000000000002,
+        1.3600000000000003,
+        1.2200000000000002,
+        1.2300000000000002
+      ]
+    },
+    {
+      "n_actions": 8,
+      "lambda_mean": 1.2230000000000003,
+      "lambda_std": 0.0646606526413089,
+      "lambda_min": 1.1,
+      "lambda_max": 1.2900000000000003,
+      "ci_lower": 1.1829229122814546,
+      "ci_upper": 1.263077087718546,
+      "improvement_mean": 5.378488559271708,
+      "improvement_std": 13.003135737032327,
+      "all_lambdas": [
+        1.2800000000000002,
+        1.1300000000000001,
+        1.2800000000000002,
+        1.2400000000000002,
+        1.2400000000000002,
+        1.2700000000000002,
+        1.2400000000000002,
+        1.1,
+        1.2900000000000003,
+        1.1600000000000001
+      ]
+    },
+    {
+      "n_actions": 9,
+      "lambda_mean": 1.2680000000000002,
+      "lambda_std": 0.06645299090334465,
+      "lambda_min": 1.1700000000000002,
+      "lambda_max": 1.3700000000000003,
+      "ci_lower": 1.2268120095173365,
+      "ci_upper": 1.309187990482664,
+      "improvement_mean": 9.051424048386892,
+      "improvement_std": 11.773009948293405,
+      "all_lambdas": [
+        1.3000000000000003,
+        1.1800000000000002,
+        1.2200000000000002,
+        1.1700000000000002,
+        1.3000000000000003,
+        1.2800000000000002,
+        1.2600000000000002,
+        1.2300000000000002,
+        1.3700000000000003,
+        1.3700000000000003
+      ]
+    },
+    {
+      "n_actions": 10,
+      "lambda_mean": 1.2530000000000003,
+      "lambda_std": 0.057974132162543025,
+      "lambda_min": 1.1800000000000002,
+      "lambda_max": 1.3700000000000003,
+      "ci_lower": 1.2170672606109696,
+      "ci_upper": 1.288932739389031,
+      "improvement_mean": 7.69063718730486,
+      "improvement_std": 10.737189445308994,
+      "all_lambdas": [
+        1.1900000000000002,
+        1.2000000000000002,
+        1.3700000000000003,
+        1.1800000000000002,
+        1.2500000000000002,
+        1.3200000000000003,
+        1.2500000000000002,
+        1.2500000000000002,
+        1.3000000000000003,
+        1.2200000000000002
+      ]
+    }
+  ],
+  "analysis": {
+    "monotonicity": {
+      "monotonicity_rate": 0.0,
+      "is_generally_monotonic": false,
+      "violations": [
+        {
+          "from_actions": 1,
+          "to_actions": 2,
+          "lambda_drop": 0.01800000000000046,
+          "relative_drop": 1.4423076923077287
+        },
+        {
+          "from_actions": 3,
+          "to_actions": 4,
+          "lambda_drop": 0.020000000000000018,
+          "relative_drop": 1.578531965272298
+        },
+        {
+          "from_actions": 4,
+          "to_actions": 5,
+          "lambda_drop": 0.02299999999999991,
+          "relative_drop": 1.8444266238973464
+        },
+        {
+          "from_actions": 7,
+          "to_actions": 8,
+          "lambda_drop": 0.03699999999999992,
+          "relative_drop": 2.93650793650793
+        },
+        {
+          "from_actions": 9,
+          "to_actions": 10,
+          "lambda_drop": 0.014999999999999902,
+          "relative_drop": 1.1829652996845348
+        }
+      ],
+      "theoretical_explanation": "\nThe non-monotonicity of the Pareto frontier in topological control can be explained by:\n\n1. **Action Interference**: Additional topological actions may conflict with previously\n   beneficial actions, creating suboptimal configurations.\n\n2. **Local Optima**: The greedy search gets trapped in different local optima depending\n   on the action budget, and more actions don't guarantee escaping these optima.\n\n3. **Flow Redistribution Non-linearity**: Power flow redistribution after topology changes\n   is inherently non-linear. The LODF approximation is linear, but actual flows are not.\n\n4. **Network Connectivity Constraints**: More disconnections may violate connectivity\n   constraints or create islanding situations that reduce overall capacity.\n\n5. **Stochastic Environment**: Grid2Op environments have inherent stochasticity in\n   initial conditions, which affects the optimization landscape.\n\nThis finding suggests that operators should NOT assume that allowing more corrective\nactions will always improve the load margin. Careful analysis of the Pareto frontier\nis necessary for each specific network topology.\n"
+    },
+    "theoretical_comparison": {
+      "max_improvement_achieved": 16.794543904518353,
+      "actions_for_max": 10,
+      "linear_bound_per_action": 1.6794543904518353,
+      "efficiency_by_action": [
+        {
+          "n_actions": 1,
+          "efficiency_vs_linear": 459.98734356218245,
+          "improvement_per_action": 7.725277636977841
+        },
+        {
+          "n_actions": 2,
+          "efficiency_vs_linear": 166.0651641384952,
+          "improvement_per_action": 2.788988690135004
+        },
+        {
+          "n_actions": 3,
+          "efficiency_vs_linear": 182.12122807761583,
+          "improvement_per_action": 3.0586429608943195
+        },
+        {
+          "n_actions": 4,
+          "efficiency_vs_linear": 109.54108257780597,
+          "improvement_per_action": 1.8396925207014327
+        },
+        {
+          "n_actions": 5,
+          "efficiency_vs_linear": 60.81176113637693,
+          "improvement_per_action": 1.0213057923159652
+        },
+        {
+          "n_actions": 6,
+          "efficiency_vs_linear": 69.14677059233468,
+          "improvement_per_action": 1.1612884745686232
+        },
+        {
+          "n_actions": 7,
+          "efficiency_vs_linear": 72.06599518899462,
+          "improvement_per_action": 1.2103155202243785
+        },
+        {
+          "n_actions": 8,
+          "efficiency_vs_linear": 40.031517005239245,
+          "improvement_per_action": 0.6723110699089635
+        },
+        {
+          "n_actions": 9,
+          "efficiency_vs_linear": 59.88336383958155,
+          "improvement_per_action": 1.005713783154099
+        },
+        {
+          "n_actions": 10,
+          "efficiency_vs_linear": 45.792474216794865,
+          "improvement_per_action": 0.7690637187304861
+        }
+      ],
+      "pareto_principle": {
+        "20_percent_budget": 2,
+        "improvement_at_20_percent": 5.577977380270008,
+        "percent_of_max_achieved": 33.21303282769904,
+        "follows_pareto": "False"
+      }
+    }
+  }
+}
